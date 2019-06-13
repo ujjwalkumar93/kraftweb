@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include kraftweb *.css
+recursive-include kraftweb *.csv
+recursive-include kraftweb *.html
+recursive-include kraftweb *.ico
+recursive-include kraftweb *.js
+recursive-include kraftweb *.json
+recursive-include kraftweb *.md
+recursive-include kraftweb *.png
+recursive-include kraftweb *.py
+recursive-include kraftweb *.svg
+recursive-include kraftweb *.txt
+recursive-exclude kraftweb *.pyc
